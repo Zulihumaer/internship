@@ -1,0 +1,21 @@
+name: "Zoe"
+output_dir: "docs"
+navbar:
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Menu1"
+      menu:
+        - text: "Wishlist"
+          href: wishlist.html
+    - text: "menu2"
+      menu:
+        - text: "sub1"
+          href: test2.html
+output:
+  html_document:
+    theme: readable # "default", "cerulean", "journal", "flatly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", and "yeti"
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css
